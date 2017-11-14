@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+html, body, #map {
+  height: 100%;
+  width: 100vw;
+}
+
+h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.info {
+   padding: 6px 8px;
+   font: 14px/16px Arial, Helvetica, sans-serif;
+   background: white;
+   background: rgba(255,255,255,.93);
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+   border-radius: 5px;
+   width: 300px;
+}
+.legend {
+   line-height: 18px;
+   color: #555;
+   width: 95px;
+}
+.legend i {
+   width: 18px;
+   height: 18px;
+   float: left;
+   margin-right: 8px;
+   opacity: 0.7;
+}
+.score {
+  width: 50%;
+  margin: 0 auto;
+  padding: 5%;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+}
+#post {
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border:solid 1px lightgray;
+  padding: 5px;
+  width: 200px;
+  height: 20px;
+
+}
+::-webkit-input-placeholder {
+   font-style: italic;
+}
+:-moz-placeholder {
+   font-style: italic;
+}
+::-moz-placeholder {
+   font-style: italic;
+}
+:-ms-input-placeholder {
+   font-style: italic;
+}
+.instructions {
+  font-size: 85%;
+  color: gray;
+}

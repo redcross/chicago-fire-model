@@ -1,0 +1,566 @@
+--------------------------------------------------------------------------------
+Codebook for NHGIS data file 'nhgis0013_ds215_20155_2015_tract'
+--------------------------------------------------------------------------------
+ 
+Contents
+    - Data Summary
+    - Data Dictionary
+    - Citation and Use
+ 
+Additional documentation on NHGIS data sources is available at: 
+    https://www.nhgis.org/documentation/tabular-data 
+ 
+--------------------------------------------------------------------------------
+Data Summary
+--------------------------------------------------------------------------------
+ 
+Year:             2011-2015
+Geographic level: Census Tract (by State--County)
+Dataset:          2015 American Community Survey: 5-Year Data [2011-2015, Block Groups & Larger Areas]
+   NHGIS code:    2011_2015_ACS5a
+   NHGIS ID:      ds215
+Breakdown(s):     Geographic Subarea:
+                     Total area (00)
+Data type(s):     (E) Estimates
+                  (M) Margins of error
+ 
+Tables:
+ 
+1. Sex by Age
+   Universe:    Total population
+   Source code: B01001
+   NHGIS code:  ADKL
+ 
+2. Total Population
+   Universe:    Total population
+   Source code: B01003
+   NHGIS code:  ADKW
+ 
+3. Household Type (Including Living Alone) by Relationship
+   Universe:    Total population
+   Source code: B09019
+   NHGIS code:  ADLR
+ 
+4. Educational Attainment for the Population 25 Years and Over
+   Universe:    Population 25 years and over
+   Source code: B15003
+   NHGIS code:  ADMZ
+ 
+5. Median Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+   Universe:    Households
+   Source code: B19013
+   NHGIS code:  ADNK
+ 
+6. Employment Status for the Population 16 Years and Over
+   Universe:    Population 16 years and over
+   Source code: B23025
+   NHGIS code:  ADPI
+ 
+7. Housing Units
+   Universe:    Housing units
+   Source code: B25001
+   NHGIS code:  ADPY
+ 
+8. Occupancy Status
+   Universe:    Housing units
+   Source code: B25002
+   NHGIS code:  ADPZ
+ 
+9. Average Household Size of Occupied Housing Units by Tenure
+   Universe:    Occupied housing units
+   Source code: B25010
+   NHGIS code:  ADQF
+ 
+10. Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  ADQT
+ 
+11. Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  ADRK
+ 
+12. Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  ADRW
+ 
+--------------------------------------------------------------------------------
+Data Dictionary
+--------------------------------------------------------------------------------
+ 
+Context Fields 
+        GISJOIN:     GIS Join Match Code
+        YEAR:        Data File Year
+        REGIONA:     Region Code
+        DIVISIONA:   Division Code
+        STATE:       State Name
+        STATEA:      State Code
+        COUNTY:      County Name
+        COUNTYA:     County Code
+        COUSUBA:     County Subdivision Code
+        PLACEA:      Place Code
+        TRACTA:      Census Tract Code
+        BLKGRPA:     Block Group Code
+        CONCITA:     Consolidated City Code
+        AIANHHA:     American Indian Area/Alaska Native Area/Hawaiian Home Land Code
+        RES_ONLYA:   American Indian Area/Alaska Native Area (Reservation or Statistical Entity Only) Code
+        TRUSTA:      American Indian Area (Off-Reservation Trust Land Only)/Hawaiian Home Land Code
+        AITSCEA:     Tribal Subdivision/Remainder Code
+        ANRCA:       Alaska Native Regional Corporation Code
+        CBSAA:       Metropolitan Statistical Area/Micropolitan Statistical Area Code
+        CSAA:        Combined Statistical Area Code
+        METDIVA:     Metropolitan Division Code
+        NECTAA:      New England City and Town Area Code
+        CNECTAA:     Combined New England City and Town Area Code
+        NECTADIVA:   New England City and Town Area Division Code
+        UAA:         Urban Area Code
+        CDCURRA:     Congressional District (2013-2017, 113th-114th Congress) Code
+        SLDUA:       State Legislative District (Upper Chamber) Code
+        SLDLA:       State Legislative District (Lower Chamber) Code
+        ZCTA5A:      5-Digit ZIP Code Tabulation Area Code
+        SUBMCDA:     Subminor Civil Division Code
+        SDELMA:      School District (Elementary)/Remainder Code
+        SDSECA:      School District (Secondary)/Remainder Code
+        SDUNIA:      School District (Unified)/Remainder Code
+        PUMA5A:      Public Use Microdata Sample Area (PUMA) Code
+        BTTRA:       Tribal Census Tract Code
+        BTBGA:       Tribal Block Group Code
+ 
+Data Type (E):
+    Estimates
+ 
+        NAME_E:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  ADKL
+        ADKLE001:    Total
+        ADKLE002:    Male
+        ADKLE003:    Male: Under 5 years
+        ADKLE004:    Male: 5 to 9 years
+        ADKLE005:    Male: 10 to 14 years
+        ADKLE006:    Male: 15 to 17 years
+        ADKLE007:    Male: 18 and 19 years
+        ADKLE008:    Male: 20 years
+        ADKLE009:    Male: 21 years
+        ADKLE010:    Male: 22 to 24 years
+        ADKLE011:    Male: 25 to 29 years
+        ADKLE012:    Male: 30 to 34 years
+        ADKLE013:    Male: 35 to 39 years
+        ADKLE014:    Male: 40 to 44 years
+        ADKLE015:    Male: 45 to 49 years
+        ADKLE016:    Male: 50 to 54 years
+        ADKLE017:    Male: 55 to 59 years
+        ADKLE018:    Male: 60 and 61 years
+        ADKLE019:    Male: 62 to 64 years
+        ADKLE020:    Male: 65 and 66 years
+        ADKLE021:    Male: 67 to 69 years
+        ADKLE022:    Male: 70 to 74 years
+        ADKLE023:    Male: 75 to 79 years
+        ADKLE024:    Male: 80 to 84 years
+        ADKLE025:    Male: 85 years and over
+        ADKLE026:    Female
+        ADKLE027:    Female: Under 5 years
+        ADKLE028:    Female: 5 to 9 years
+        ADKLE029:    Female: 10 to 14 years
+        ADKLE030:    Female: 15 to 17 years
+        ADKLE031:    Female: 18 and 19 years
+        ADKLE032:    Female: 20 years
+        ADKLE033:    Female: 21 years
+        ADKLE034:    Female: 22 to 24 years
+        ADKLE035:    Female: 25 to 29 years
+        ADKLE036:    Female: 30 to 34 years
+        ADKLE037:    Female: 35 to 39 years
+        ADKLE038:    Female: 40 to 44 years
+        ADKLE039:    Female: 45 to 49 years
+        ADKLE040:    Female: 50 to 54 years
+        ADKLE041:    Female: 55 to 59 years
+        ADKLE042:    Female: 60 and 61 years
+        ADKLE043:    Female: 62 to 64 years
+        ADKLE044:    Female: 65 and 66 years
+        ADKLE045:    Female: 67 to 69 years
+        ADKLE046:    Female: 70 to 74 years
+        ADKLE047:    Female: 75 to 79 years
+        ADKLE048:    Female: 80 to 84 years
+        ADKLE049:    Female: 85 years and over
+ 
+    Table 2:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  ADKW
+        ADKWE001:    Total
+ 
+    Table 3:     Household Type (Including Living Alone) by Relationship
+    Universe:    Total population
+    Source code: B09019
+    NHGIS code:  ADLR
+        ADLRE001:    Total
+        ADLRE002:    In households
+        ADLRE003:    In households: In family households
+        ADLRE004:    In households: In family households: Householder
+        ADLRE005:    In households: In family households: Householder: Male
+        ADLRE006:    In households: In family households: Householder: Female
+        ADLRE007:    In households: In family households: Spouse
+        ADLRE008:    In households: In family households: Child
+        ADLRE009:    In households: In family households: Child: Biological child
+        ADLRE010:    In households: In family households: Child: Adopted child
+        ADLRE011:    In households: In family households: Child: Stepchild
+        ADLRE012:    In households: In family households: Grandchild
+        ADLRE013:    In households: In family households: Brother or sister
+        ADLRE014:    In households: In family households: Parent
+        ADLRE015:    In households: In family households: Parent-in-law
+        ADLRE016:    In households: In family households: Son-in-law or daughter-in-law
+        ADLRE017:    In households: In family households: Other relatives
+        ADLRE018:    In households: In family households: Nonrelatives
+        ADLRE019:    In households: In family households: Nonrelatives: Roomer or boarder
+        ADLRE020:    In households: In family households: Nonrelatives: Housemate or roommate
+        ADLRE021:    In households: In family households: Nonrelatives: Unmarried partner
+        ADLRE022:    In households: In family households: Nonrelatives: Foster child
+        ADLRE023:    In households: In family households: Nonrelatives: Other nonrelatives
+        ADLRE024:    In households: In nonfamily households
+        ADLRE025:    In households: In nonfamily households: Householder
+        ADLRE026:    In households: In nonfamily households: Householder: Male
+        ADLRE027:    In households: In nonfamily households: Householder: Male: Living alone
+        ADLRE028:    In households: In nonfamily households: Householder: Male: Not living alone
+        ADLRE029:    In households: In nonfamily households: Householder: Female
+        ADLRE030:    In households: In nonfamily households: Householder: Female: Living alone
+        ADLRE031:    In households: In nonfamily households: Householder: Female: Not living alone
+        ADLRE032:    In households: In nonfamily households: Nonrelatives
+        ADLRE033:    In households: In nonfamily households: Nonrelatives: Roomer or boarder
+        ADLRE034:    In households: In nonfamily households: Nonrelatives: Housemate or roommate
+        ADLRE035:    In households: In nonfamily households: Nonrelatives: Unmarried partner
+        ADLRE036:    In households: In nonfamily households: Nonrelatives: Foster child
+        ADLRE037:    In households: In nonfamily households: Nonrelatives: Other nonrelatives
+        ADLRE038:    In group quarters
+ 
+    Table 4:     Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15003
+    NHGIS code:  ADMZ
+        ADMZE001:    Total
+        ADMZE002:    No schooling completed
+        ADMZE003:    Nursery school
+        ADMZE004:    Kindergarten
+        ADMZE005:    1st grade
+        ADMZE006:    2nd grade
+        ADMZE007:    3rd grade
+        ADMZE008:    4th grade
+        ADMZE009:    5th grade
+        ADMZE010:    6th grade
+        ADMZE011:    7th grade
+        ADMZE012:    8th grade
+        ADMZE013:    9th grade
+        ADMZE014:    10th grade
+        ADMZE015:    11th grade
+        ADMZE016:    12th grade, no diploma
+        ADMZE017:    Regular high school diploma
+        ADMZE018:    GED or alternative credential
+        ADMZE019:    Some college, less than 1 year
+        ADMZE020:    Some college, 1 or more years, no degree
+        ADMZE021:    Associate's degree
+        ADMZE022:    Bachelor's degree
+        ADMZE023:    Master's degree
+        ADMZE024:    Professional school degree
+        ADMZE025:    Doctorate degree
+ 
+    Table 5:     Median Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  ADNK
+        ADNKE001:    Median household income in the past 12 months (in 2015 inflation-adjusted dollars)
+ 
+    Table 6:     Employment Status for the Population 16 Years and Over
+    Universe:    Population 16 years and over
+    Source code: B23025
+    NHGIS code:  ADPI
+        ADPIE001:    Total
+        ADPIE002:    In labor force
+        ADPIE003:    In labor force: Civilian labor force
+        ADPIE004:    In labor force: Civilian labor force: Employed
+        ADPIE005:    In labor force: Civilian labor force: Unemployed
+        ADPIE006:    In labor force: Armed Forces
+        ADPIE007:    Not in labor force
+ 
+    Table 7:     Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  ADPY
+        ADPYE001:    Total
+ 
+    Table 8:     Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  ADPZ
+        ADPZE001:    Total
+        ADPZE002:    Occupied
+        ADPZE003:    Vacant
+ 
+    Table 9:     Average Household Size of Occupied Housing Units by Tenure
+    Universe:    Occupied housing units
+    Source code: B25010
+    NHGIS code:  ADQF
+        ADQFE001:    Average household size: Total
+        ADQFE002:    Average household size: Owner occupied
+        ADQFE003:    Average household size: Renter occupied
+ 
+    Table 10:    Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  ADQT
+        ADQTE001:    Median year structure built
+ 
+    Table 11:    Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  ADRK
+        ADRKE001:    Median gross rent
+ 
+    Table 12:    Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  ADRW
+        ADRWE001:    Median value (dollars)
+ 
+Data Type (M):
+    Margins of error
+ 
+        NAME_M:      Area Name
+ 
+    Table 1:     Sex by Age
+    Universe:    Total population
+    Source code: B01001
+    NHGIS code:  ADKL
+        ADKLM001:    Total
+        ADKLM002:    Male
+        ADKLM003:    Male: Under 5 years
+        ADKLM004:    Male: 5 to 9 years
+        ADKLM005:    Male: 10 to 14 years
+        ADKLM006:    Male: 15 to 17 years
+        ADKLM007:    Male: 18 and 19 years
+        ADKLM008:    Male: 20 years
+        ADKLM009:    Male: 21 years
+        ADKLM010:    Male: 22 to 24 years
+        ADKLM011:    Male: 25 to 29 years
+        ADKLM012:    Male: 30 to 34 years
+        ADKLM013:    Male: 35 to 39 years
+        ADKLM014:    Male: 40 to 44 years
+        ADKLM015:    Male: 45 to 49 years
+        ADKLM016:    Male: 50 to 54 years
+        ADKLM017:    Male: 55 to 59 years
+        ADKLM018:    Male: 60 and 61 years
+        ADKLM019:    Male: 62 to 64 years
+        ADKLM020:    Male: 65 and 66 years
+        ADKLM021:    Male: 67 to 69 years
+        ADKLM022:    Male: 70 to 74 years
+        ADKLM023:    Male: 75 to 79 years
+        ADKLM024:    Male: 80 to 84 years
+        ADKLM025:    Male: 85 years and over
+        ADKLM026:    Female
+        ADKLM027:    Female: Under 5 years
+        ADKLM028:    Female: 5 to 9 years
+        ADKLM029:    Female: 10 to 14 years
+        ADKLM030:    Female: 15 to 17 years
+        ADKLM031:    Female: 18 and 19 years
+        ADKLM032:    Female: 20 years
+        ADKLM033:    Female: 21 years
+        ADKLM034:    Female: 22 to 24 years
+        ADKLM035:    Female: 25 to 29 years
+        ADKLM036:    Female: 30 to 34 years
+        ADKLM037:    Female: 35 to 39 years
+        ADKLM038:    Female: 40 to 44 years
+        ADKLM039:    Female: 45 to 49 years
+        ADKLM040:    Female: 50 to 54 years
+        ADKLM041:    Female: 55 to 59 years
+        ADKLM042:    Female: 60 and 61 years
+        ADKLM043:    Female: 62 to 64 years
+        ADKLM044:    Female: 65 and 66 years
+        ADKLM045:    Female: 67 to 69 years
+        ADKLM046:    Female: 70 to 74 years
+        ADKLM047:    Female: 75 to 79 years
+        ADKLM048:    Female: 80 to 84 years
+        ADKLM049:    Female: 85 years and over
+ 
+    Table 2:     Total Population
+    Universe:    Total population
+    Source code: B01003
+    NHGIS code:  ADKW
+        ADKWM001:    Total
+ 
+    Table 3:     Household Type (Including Living Alone) by Relationship
+    Universe:    Total population
+    Source code: B09019
+    NHGIS code:  ADLR
+        ADLRM001:    Total
+        ADLRM002:    In households
+        ADLRM003:    In households: In family households
+        ADLRM004:    In households: In family households: Householder
+        ADLRM005:    In households: In family households: Householder: Male
+        ADLRM006:    In households: In family households: Householder: Female
+        ADLRM007:    In households: In family households: Spouse
+        ADLRM008:    In households: In family households: Child
+        ADLRM009:    In households: In family households: Child: Biological child
+        ADLRM010:    In households: In family households: Child: Adopted child
+        ADLRM011:    In households: In family households: Child: Stepchild
+        ADLRM012:    In households: In family households: Grandchild
+        ADLRM013:    In households: In family households: Brother or sister
+        ADLRM014:    In households: In family households: Parent
+        ADLRM015:    In households: In family households: Parent-in-law
+        ADLRM016:    In households: In family households: Son-in-law or daughter-in-law
+        ADLRM017:    In households: In family households: Other relatives
+        ADLRM018:    In households: In family households: Nonrelatives
+        ADLRM019:    In households: In family households: Nonrelatives: Roomer or boarder
+        ADLRM020:    In households: In family households: Nonrelatives: Housemate or roommate
+        ADLRM021:    In households: In family households: Nonrelatives: Unmarried partner
+        ADLRM022:    In households: In family households: Nonrelatives: Foster child
+        ADLRM023:    In households: In family households: Nonrelatives: Other nonrelatives
+        ADLRM024:    In households: In nonfamily households
+        ADLRM025:    In households: In nonfamily households: Householder
+        ADLRM026:    In households: In nonfamily households: Householder: Male
+        ADLRM027:    In households: In nonfamily households: Householder: Male: Living alone
+        ADLRM028:    In households: In nonfamily households: Householder: Male: Not living alone
+        ADLRM029:    In households: In nonfamily households: Householder: Female
+        ADLRM030:    In households: In nonfamily households: Householder: Female: Living alone
+        ADLRM031:    In households: In nonfamily households: Householder: Female: Not living alone
+        ADLRM032:    In households: In nonfamily households: Nonrelatives
+        ADLRM033:    In households: In nonfamily households: Nonrelatives: Roomer or boarder
+        ADLRM034:    In households: In nonfamily households: Nonrelatives: Housemate or roommate
+        ADLRM035:    In households: In nonfamily households: Nonrelatives: Unmarried partner
+        ADLRM036:    In households: In nonfamily households: Nonrelatives: Foster child
+        ADLRM037:    In households: In nonfamily households: Nonrelatives: Other nonrelatives
+        ADLRM038:    In group quarters
+ 
+    Table 4:     Educational Attainment for the Population 25 Years and Over
+    Universe:    Population 25 years and over
+    Source code: B15003
+    NHGIS code:  ADMZ
+        ADMZM001:    Total
+        ADMZM002:    No schooling completed
+        ADMZM003:    Nursery school
+        ADMZM004:    Kindergarten
+        ADMZM005:    1st grade
+        ADMZM006:    2nd grade
+        ADMZM007:    3rd grade
+        ADMZM008:    4th grade
+        ADMZM009:    5th grade
+        ADMZM010:    6th grade
+        ADMZM011:    7th grade
+        ADMZM012:    8th grade
+        ADMZM013:    9th grade
+        ADMZM014:    10th grade
+        ADMZM015:    11th grade
+        ADMZM016:    12th grade, no diploma
+        ADMZM017:    Regular high school diploma
+        ADMZM018:    GED or alternative credential
+        ADMZM019:    Some college, less than 1 year
+        ADMZM020:    Some college, 1 or more years, no degree
+        ADMZM021:    Associate's degree
+        ADMZM022:    Bachelor's degree
+        ADMZM023:    Master's degree
+        ADMZM024:    Professional school degree
+        ADMZM025:    Doctorate degree
+ 
+    Table 5:     Median Household Income in the Past 12 Months (in 2015 Inflation-Adjusted Dollars)
+    Universe:    Households
+    Source code: B19013
+    NHGIS code:  ADNK
+        ADNKM001:    Median household income in the past 12 months (in 2015 inflation-adjusted dollars)
+ 
+    Table 6:     Employment Status for the Population 16 Years and Over
+    Universe:    Population 16 years and over
+    Source code: B23025
+    NHGIS code:  ADPI
+        ADPIM001:    Total
+        ADPIM002:    In labor force
+        ADPIM003:    In labor force: Civilian labor force
+        ADPIM004:    In labor force: Civilian labor force: Employed
+        ADPIM005:    In labor force: Civilian labor force: Unemployed
+        ADPIM006:    In labor force: Armed Forces
+        ADPIM007:    Not in labor force
+ 
+    Table 7:     Housing Units
+    Universe:    Housing units
+    Source code: B25001
+    NHGIS code:  ADPY
+        ADPYM001:    Total
+ 
+    Table 8:     Occupancy Status
+    Universe:    Housing units
+    Source code: B25002
+    NHGIS code:  ADPZ
+        ADPZM001:    Total
+        ADPZM002:    Occupied
+        ADPZM003:    Vacant
+ 
+    Table 9:     Average Household Size of Occupied Housing Units by Tenure
+    Universe:    Occupied housing units
+    Source code: B25010
+    NHGIS code:  ADQF
+        ADQFM001:    Average household size: Total
+        ADQFM002:    Average household size: Owner occupied
+        ADQFM003:    Average household size: Renter occupied
+ 
+    Table 10:    Median Year Structure Built
+    Universe:    Housing units
+    Source code: B25035
+    NHGIS code:  ADQT
+        ADQTM001:    Median year structure built
+ 
+    Table 11:    Median Gross Rent (Dollars)
+    Universe:    Renter-occupied housing units paying cash rent
+    Source code: B25064
+    NHGIS code:  ADRK
+        ADRKM001:    Median gross rent
+ 
+    Table 12:    Median Value (Dollars)
+    Universe:    Owner-occupied housing units
+    Source code: B25077
+    NHGIS code:  ADRW
+        ADRWM001:    Median value (dollars)
+ 
+--------------------------------------------------------------------------------
+Citation and Use of NHGIS Data
+--------------------------------------------------------------------------------
+ 
+All persons are granted a limited license to use this documentation and the
+accompanying data, subject to the following conditions:
+
+* Publications and research reports employing NHGIS data (either tabular or GIS)
+  must cite it appropriately. The citation should include the following:
+
+    Steven Manson, Jonathan Schroeder, David Van Riper, and Steven Ruggles. 
+    IPUMS National Historical Geographic Information System: Version 12.0 [Database]. 
+    Minneapolis: University of Minnesota. 2017. 
+    http://doi.org/10.18128/D050.V12.0
+
+* Publications and research reports employing school attendance areas data
+  (either tabular or GIS) must cite it appropriately. The citation should
+  include the following:
+
+    The College of William and Mary and the Minnesota Population Center.
+    School Attendance Boundary Information System (SABINS): Version 1.0.
+    Minneapolis, MN: University of Minnesota 2011.
+
+* For policy briefs or articles in the popular press, we recommend that you cite the use of NHGIS data as follows:
+
+    IPUMS NHGIS, University of Minnesota, www.nhgis.org.
+
+* If possible, citations involving school attendance areas should also include
+  the URL for the SABINS site:
+
+    http://www.sabinsdata.org/.
+
+In addition, we request that users send us a copy of any publications, research
+reports, or educational material making use of the data or documentation.
+Printed matter should be sent to:
+
+    NHGIS
+    Minnesota Population Center
+    University of Minnesota
+    50 Willey Hall
+    225 19th Ave S
+    Minneapolis, MN 55455
+
+Send electronic material to: nhgis@umn.edu
