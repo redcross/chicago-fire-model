@@ -89,13 +89,13 @@ data_prep/map_data.R
 To launch the fire risk app on a web server, do:
 
 ```
-cd red_cross/app
+cd app
 python -m SimpleHTTPServer 8888
 ```
 or
 
 ```
-cd red_cross/app
+cd app
 python3 -m http.server
 ```
 - The files and scripts needed to run the tool in a browser are stored in the "app" folder. The tool can be launched and tested on a local machine using Python’s built-in HTTP server. The app will be made available at "localhost:8888".
