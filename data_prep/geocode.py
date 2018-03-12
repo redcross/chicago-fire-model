@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # Copyright © 2017 American Red Cross
 # 
 # Permission is hereby granted, free of charge, to any person
